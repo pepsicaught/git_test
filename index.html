@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage</title>
+    </head>
+
+    <!-- Learning to use link in HTML-->
+    <body>
+        <h1>Homepage</h1>
+        <!-- we need the anchor element to create a link-->
+        <!-- HTML attributes give additional info to an HTML element
+            They always go in the element's opening tag -->
+        <!-- In this case href is the attribute -->
+        <a href="https://www.theodinproject.com/about">click me</a>
+        <!--protocol://domain/path-->
+
+        <!--This works because index and about pages are in the same
+            directory-->
+        <!--Prepending ./ before the link specifies your code to 
+            start looking for the file/directory relative to the current
+            directory-->
+        <a href="./pages/about.html">About</a>
+
+
+        <!--To display an image in HTML we use img element.
+            They are self-closing and used a src attribute-->
+        <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The 
+        Odin Project Logo">
+
+        <img src="./images/dog.jpg" alt="Charles the Dog">
+    </body>
+</html>
